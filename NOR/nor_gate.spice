@@ -1,0 +1,45 @@
+* SPICE3 file created from nor_gate.ext - technology: scmos
+.model pfet pmos level=1 VTO=-0.7 KP=40u LAMBDA=0.02
+.model nfet nmos level=1 VTO=0.7 KP=80u LAMBDA=0.02
+
+.option scale=1u
+
+.option scale=10n
+
+M1000 a_n1_n12# B VDD VDD pfet w=800 l=200
++  ad=80n pd=1m as=0.48u ps=2.8m
+M1001 out A a_n1_n12# VDD pfet w=800 l=200
++  ad=0.8u pd=3.6m as=80n ps=1m
+M1002 out B GND Gnd nfet w=400 l=200
++  ad=0.12u pd=1m as=0.2u ps=1.8m
+M1003 GND A out Gnd nfet w=400 l=200
++  ad=0.2u pd=1.8m as=0.12u ps=1m
+
+
+*======================
+* Power Supply
+VDD_SRC VDD 0 5
+
+* Input A
+VA A 0 PULSE(0 5 0n 1n 1n 20n 40n)
+
+* Input B
+VB B 0 PULSE(0 5 0n 1n 1n 40n 80n)
+
+* Output load (recommended)
+CL out 0 10f
+
+*======================
+* Analysis
+.tran 1n 200n
+
+.control
+run
+plot V(A)
+plot V(B)
+plot V(out)
+.endc
+
+
+.end
+
