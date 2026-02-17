@@ -118,4 +118,4 @@ See the LICENSE file for details.
 
 Jaswanth  
 B.Tech – Electrical and Computer Engineering  
-VLSI Layout Design Course Project
+WBG Devices Course Project
