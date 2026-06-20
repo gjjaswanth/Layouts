@@ -35,18 +35,3 @@ This work demonstrates understanding of:
 
 ---
 
-## 🗓 Estimated Completion
-
-**May 2026**
-
----
-
-## 🎯 Long-Term Goal
-
-The long-term objective of this project is to transition from CMOS standard cell design to **GaN-based circuit drivers**, focusing on high-speed and high-power device applications.
-
----
-
-## 📈 Project Status
-
-🟢 Ongoing – Continuous updates and improvements will be pushed to this repository.
