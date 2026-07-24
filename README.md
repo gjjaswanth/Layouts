@@ -1,4 +1,4 @@
-# Standard Cell Design Project – SKY130
+# Layout-First CMOS Standard Cell Design Project – SKY130
 
 ## 📌 Project Overview
 This repository documents my ongoing work on **CMOS standard cell design using the SKY130 (130nm) PDK**.  
