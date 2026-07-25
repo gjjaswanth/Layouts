@@ -6,8 +6,6 @@ The objective of this project is to understand and implement the complete standa
 
 ---
 
-## Project Overview
-
 - Transistor-level design of:
   - CMOS Inverter (INV)
   - 2-Input NAND Gate
