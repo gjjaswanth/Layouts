@@ -6,7 +6,7 @@ The objective of this project is to understand and implement the complete standa
 
 ---
 
-## ✅ Work Completed
+## Project Overview
 
 - Transistor-level design of:
   - CMOS Inverter (INV)
@@ -23,15 +23,6 @@ This work demonstrates understanding of:
 - CMOS logic implementation
 - Layout design rules (130nm)
 - Basic ASIC standard cell development flow
-
----
-
-## 🔄 Current Focus
-
-- Layout optimization and area improvement  
-- Propagation delay analysis  
-- Power estimation fundamentals  
-- Preparing for integration into larger digital design flows  
 
 ---
 
